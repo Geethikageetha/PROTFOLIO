@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#projects-container{
+    width: 100%;
+}
+#projects-container header{
+    top: 10;
+    position: fixed;
+    left: 10;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    box-shadow: #f4ecec 1px 1px;
+}
+#projects-container header nav{
+    height: 10vh;
+    width: 100%;
+    background-color: #777;
+}
+#projects-container header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+#projects-container header nav ul a{
+    text-decoration: none ;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: aliceblue;
+    border-top: solid 1px rgb(228, 23, 217);
+    transition: all .3s ease-in;
+    height: 30px;
+}
+#projects-container header nav ul a:hover{
+    color: blue;
+    border-top: none;
+    border-bottom: solid 2px rgb(16, 230, 165);
+}
+#projects-container header h2{
+    color: skyblue;
+    font-size: 27px;
+    background-color: #777;
+    height: 10vh;
+    margin-top: 0;
+}
+#projects-container header h2 span{
+    color: red;
+    font-weight: lighter;
+}
+#projects-container main{
+    position: absolute;
+    margin-top: 5vh;
+}
+@media only screen and (max-width:768px){
+    #projects-container{
+        width: 100%;
+    }
+    #projects-container header{
+        top: 10;
+        position: fixed;
+        left: 10;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 5vh;
+        box-shadow: #f4ecec 1px 1px;
+    }
+    #projects-container header nav{
+        height: 5vh;
+        width: 100%;
+        background-color: #777;
+    }
+    #projects-container header nav ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    #projects-container header nav ul a{
+        text-decoration: none ;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: aliceblue;
+        border-top: solid 1px rgb(228, 23, 217);
+        transition: all .3s ease-in;
+    }
+    #projects-container header nav ul a:hover{
+        color: blue;
+        border-top: none;
+        border-bottom: solid 1px rgb(16, 230, 165);
+    }
+    #projects-container header h2{
+        color: skyblue;
+        font-size: 27px;
+        background-color: #777;
+        height: 5vh;
+        margin-top: 0;
+    }
+    #projects-container header h2 span{
+        color: red;
+        font-weight: lighter;
+    }
+}
